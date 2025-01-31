@@ -13,7 +13,6 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class MissoesModel {
 
     @Id
@@ -24,10 +23,8 @@ public class MissoesModel {
 
     private String dificuldade;
 
-    private NinjaModel ninja;
-
     // Uma MISSÃO tem VÁRIOS ninjas
-    @OneToMany (mappedBy = "missoes")
-    private List<NinjaModel> nijas;
+    @OneToMany(mappedBy = "missoes")
+    private List<NinjaModel> ninjas;
 
 }
