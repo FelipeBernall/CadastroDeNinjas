@@ -1,3 +1,0 @@
-2025-02-06 14:14:24.509788-03:00 jdbc[14]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM TB_CADASTRO TB_MISSOES [*]TB_MISSOES"; SQL statement:
-SELECT * FROM TB_CADASTRO TB_MISSOES TB_MISSOES [42000-232]
