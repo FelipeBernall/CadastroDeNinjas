@@ -34,3 +34,5 @@ build/
 data/T
 
 .env
+
+CadastroDeNinjas/data/CadastroDeNinjasDb.mv.db
