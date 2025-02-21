@@ -1,0 +1,185 @@
+[33mcommit 12deb078400a09fb4674bcc59e6129617c9af3c4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/T-001-criar-mapper-dto[m[33m)[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 18 21:50:46 2025 -0300
+
+    fix: Tira a responsabilidade do meu model e passa para dentro do meu DTO, usando streams no mapper
+
+[33mcommit 96a326fea5e107c9e699f8308502167c39146f51[m[33m ([m[1;31morigin/feature/T-001-criar-mapper-dto[m[33m)[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 18 10:42:18 2025 -0300
+
+    feat: Inclui o DTO como abstração para minha entidade na camada de service e controller
+
+[33mcommit 0f749952935aec5bcbcafaa78d6b9c05f4cdcd52[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 18 10:39:57 2025 -0300
+
+    Chore: Inclui a versão do DTO pela entidade e mapeia manualmente no NinjaMapper os caminhos entidades x dto
+
+[33mcommit 50817ca9e6f41f951b2250d5b4015c22449ccce5[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 18 10:37:47 2025 -0300
+
+    fix: Inclui a coluna de RANK na minha entidade (já estava incluso na migration V2)
+
+[33mcommit 4cc07b69e2b16fdab7ab79edc170c72f84baa431[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Mon Feb 17 09:25:30 2025 -0300
+
+    feat: Cria o Mapper e o DTO para entidade ninja
+
+[33mcommit 228593274c69e37f194e314a313f3063636cace9[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Sun Feb 16 21:29:15 2025 -0300
+
+    feat: Inclui o método PUT. Porém, ainda precisa trabalhar em alterações parciais
+
+[33mcommit d4d824a8ddab3865bd98aa6a9503da4d40058a4a[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Sun Feb 16 19:17:41 2025 -0300
+
+    feat: Adiciona a rota de deleção do ninja
+
+[33mcommit d709ce4dd2bbdf3f7e5e84a3ec60183e4793d0dc[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Sun Feb 16 18:08:20 2025 -0300
+
+    feat: Inclui a rota de cadastro de ninjas usando método POST, também inicializa o Postman
+
+[33mcommit c13d684127f2bf1c994f95f254dd04a457b95355[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Sun Feb 16 15:02:38 2025 -0300
+
+    feat: Rota de findById adicionada
+
+[33mcommit 9b6b666b803788fdbd592f38a1dd31132a08c24c[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Wed Feb 12 17:44:20 2025 -0300
+
+    feat: Altera a rota do Controller para listar os ninjas e injeta a dependência do Service e do Repository
+
+[33mcommit c268e43720d71d1e1f7cdf817a02b5952b11c70b[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Wed Feb 12 17:41:49 2025 -0300
+
+    fix: Corrige NinjaRepository para interface e conecta ao JPA
+
+[33mcommit 75a9a6cbf5614062cdb2b9d0ab7924e7a98ca727[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Wed Feb 12 17:30:42 2025 -0300
+
+    fix: Inclui a anotation @JsonIgnore em MissoesModel para previnir o erro de serialização
+
+[33mcommit 85eafa4f786dc660544afb13dfa6477540798bf2[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Wed Feb 12 14:16:41 2025 -0300
+
+    chore: Ignora a pasta data
+
+[33mcommit a1799d3024e8771944fcf30bca23c92709e003f8[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 11 22:13:38 2025 -0300
+
+    fix: Altera o nome das rotas do controller dos ninjas
+
+[33mcommit 91d1a0f2a04e6a578b4ce394eb2eb1fad8366ffd[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 11 22:08:37 2025 -0300
+
+    feat: Cria as rotas do controller com o mock
+
+[33mcommit 89105db5f01124f1014b3547520f5b297d042475[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 11 21:49:02 2025 -0300
+
+    chore: Ignora arquivo do BD
+
+[33mcommit 88df0d601e0cca4302771496ba47bb3856787db4[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 11 20:31:48 2025 -0300
+
+    feat: Atualiza o controller com mock de dados
+
+[33mcommit 25cc5692d4d5e92cc48da49b3e2bd1f887d2f6b7[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 11 20:05:52 2025 -0300
+
+    feat: Migrations para tb_cadastro incluindo a column de rank
+
+[33mcommit 0b3f0691bbdf5e1245763cae8873a83473e83347[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Mon Feb 10 13:28:00 2025 -0300
+
+    chore: .gitignore inclui o ./data
+
+[33mcommit e574245a73c8c390411acef920356b653478cbd4[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 4 21:46:52 2025 -0300
+
+    build: Conecta o banco de dados H2 na minha aplicacao SPRING
+
+[33mcommit 7ee1a46b49c58ed2fb79170ae1f40a7429b0a84d[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Tue Feb 4 21:44:53 2025 -0300
+
+    chore: .gitignore adiciona as minhas credenciais do BD
+
+[33mcommit 0a0f86d8c8aa7bb0bfaa84f533e5f099eca4c287[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Fri Jan 31 12:26:35 2025 -0300
+
+    fix: Corrige MissoesModel e ajusta configurações do banco H2
+
+[33mcommit 4091904279c27776589658f83f26cb19e0aa7902[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Fri Jan 31 11:41:56 2025 -0300
+
+    fix: Adiciona o @Column na minha classe
+
+[33mcommit 083c122ea1515033daf74a0cb992e23106dd0312[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Fri Jan 31 11:05:30 2025 -0300
+
+    feat: Cria o Missoes Repository
+
+[33mcommit d53eae7c8b14271a1fff35216c7f50faa421b088[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Fri Jan 31 11:03:44 2025 -0300
+
+    feat: Cria os arquivos de Service e Repository
+
+[33mcommit c1ed2310fff2d6d0cb057fd1e6b14e0fb19cae3c[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Thu Jan 30 12:59:33 2025 -0300
+
+    fix: Coloca a coluna de email como UNIQUE
+
+[33mcommit 7ba86209f669209b63e9662f589b72389a0cb084[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Thu Jan 30 12:48:53 2025 -0300
+
+    feat: Coloca o Lombock na classe para abstração
+
+[33mcommit 0695b2a6c2ddf6830e9f2085fa5e59c7e84a2bd4[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Thu Jan 30 10:25:53 2025 -0300
+
+    Modelagem do Banco de Dados, NinjaModel e MissoesModel concluídos, anotations feitas para relacionamento de tabelas
+
+[33mcommit fdf1ef5f3dcaea5d0979b867a2f92015a40a95be[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Wed Jan 29 14:01:26 2025 -0300
+
+    Cria uma entidade no banco de dados a partir do NinjaModel
+
+[33mcommit 38891b4d4ccd83c12d2e7372f05046b9359b28d2[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Wed Jan 29 12:51:32 2025 -0300
+
+    Criado a controller
+
+[33mcommit b25aef7ca8ea311f8a8958664428b47a0d9422e5[m
+Author: FelipeBernall <fbernal.ti@gmail.com>
+Date:   Wed Jan 29 12:01:57 2025 -0300
+
+    first commit
